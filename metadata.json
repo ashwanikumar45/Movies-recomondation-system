@@ -1,0 +1,8 @@
+{
+  "name": "Remix CineMatch ML - Movie Recommendations \u0026 Taste Profile",
+  "description": "Intelligent movie recommendation engine powered by machine learning, TMDB metadata, and personalized watch history tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

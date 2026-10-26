@@ -1,0 +1,61 @@
+[
+  {
+    "userId": "user_cinephile",
+    "movieId": 20453,
+    "status": "watched",
+    "liked": true,
+    "rating": 5,
+    "favorite": true,
+    "updatedAt": "2026-10-25T19:30:00.000Z",
+    "_id": "seed_inter_1"
+  },
+  {
+    "userId": "user_cinephile",
+    "movieId": 155,
+    "status": "watched",
+    "liked": true,
+    "rating": 5,
+    "favorite": true,
+    "updatedAt": "2026-10-25T19:30:00.000Z",
+    "_id": "seed_inter_2"
+  },
+  {
+    "userId": "user_cinephile",
+    "movieId": 872585,
+    "status": "watched",
+    "liked": true,
+    "rating": 5,
+    "favorite": true,
+    "updatedAt": "2026-10-25T19:30:00.000Z",
+    "_id": "seed_inter_3"
+  },
+  {
+    "userId": "user_cinephile",
+    "movieId": 534780,
+    "status": "watched",
+    "liked": true,
+    "rating": 5,
+    "favorite": false,
+    "updatedAt": "2026-10-25T19:30:00.000Z",
+    "_id": "seed_inter_4"
+  },
+  {
+    "userId": "user_cinephile",
+    "movieId": 157336,
+    "status": "watched",
+    "liked": true,
+    "rating": 5,
+    "favorite": true,
+    "updatedAt": "2026-10-25T19:30:00.000Z",
+    "_id": "seed_inter_5"
+  },
+  {
+    "userId": "user_cinephile",
+    "movieId": 61596,
+    "status": "want_to_watch",
+    "liked": null,
+    "favorite": false,
+    "updatedAt": "2026-10-25T19:30:00.000Z",
+    "_id": "seed_inter_6"
+  }
+]

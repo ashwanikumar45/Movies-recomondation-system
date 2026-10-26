@@ -1,0 +1,43 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "User profile with display metadata and taste preferences",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string", "description": "Unique user authentication ID" },
+        "displayName": { "type": "string", "description": "User display name" },
+        "email": { "type": "string", "description": "User email address" },
+        "photoURL": { "type": "string", "description": "Avatar image URL" },
+        "tagline": { "type": "string", "description": "Short bio or film taste description" },
+        "createdAt": { "type": "string", "description": "Timestamp string" }
+      },
+      "required": ["uid"]
+    },
+    "UserInteraction": {
+      "title": "UserInteraction",
+      "description": "User interaction with a specific movie including watchlist, like/dislike, rating and notes",
+      "type": "object",
+      "properties": {
+        "movieId": { "type": "integer", "description": "TMDB movie ID" },
+        "status": { "type": "string", "enum": ["none", "watched", "want_to_watch"], "description": "Watchlist tracking status" },
+        "liked": { "type": "boolean", "description": "True if liked, false if disliked" },
+        "rating": { "type": "integer", "description": "1 to 5 star rating" },
+        "favorite": { "type": "boolean", "description": "Whether added to favorites" },
+        "notes": { "type": "string", "description": "Personal review memo" },
+        "updatedAt": { "type": "string", "description": "Last updated ISO string" }
+      },
+      "required": ["movieId", "status"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": { "$ref": "UserProfile" },
+      "description": "Stores user account details and preferences"
+    },
+    "/users/{userId}/interactions/{movieId}": {
+      "schema": { "$ref": "UserInteraction" },
+      "description": "Stores per-movie interactions, watch status, and ratings for each user"
+    }
+  }
+}

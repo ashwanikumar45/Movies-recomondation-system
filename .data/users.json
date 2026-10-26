@@ -1,0 +1,26 @@
+[
+  {
+    "id": "user_cinephile",
+    "name": "Kabir Malhotra",
+    "tagline": "Bollywood & Cult Cinema Connoisseur",
+    "avatar": "/src/assets/images/avatar_cinephile_user_1792955256389.jpg",
+    "createdAt": "2026-10-25T19:28:41.036Z",
+    "_id": "user_cinephile"
+  },
+  {
+    "id": "user_scifi",
+    "name": "Aanya Sharma",
+    "tagline": "Viral Hits & Mind-Bending Thrillers",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&auto=format&fit=crop&q=80",
+    "createdAt": "2026-10-25T19:28:41.037Z",
+    "_id": "user_scifi"
+  },
+  {
+    "id": "user_critic",
+    "name": "Leo Sterling",
+    "tagline": "Limited Edition & Classic Hollywood Purist",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&auto=format&fit=crop&q=80",
+    "createdAt": "2026-10-25T19:28:41.037Z",
+    "_id": "user_critic"
+  }
+]
